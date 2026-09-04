@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
-import { getDriverStandings } from "../api/f1api.js";
+import { getDriverStandings } from "../api/f1Api.js";
 import StandingsTable from "../components/StandingsTable.jsx";
 import teamLogos from "../assets/team-logos";
 function HomePage() {
