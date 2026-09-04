@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getSeasonWinners, getDriverStandingsByYear } from '../api/f1api';
+import { getSeasonWinners, getDriverStandingsByYear } from '../api/f1Api';
 
 function HistoryPage() {
   const [year, setYear] = useState(2024);
