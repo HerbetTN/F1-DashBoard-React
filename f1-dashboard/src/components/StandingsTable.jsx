@@ -1,5 +1,6 @@
-// src/components/StandingsTable.jsx
+
 import DriverRow from './DriverRow';
+import { getConstructorDrivers } from '../api/f1Api';
 
 function StandingsTable({ standings, onSelectDriver }) {
   return (

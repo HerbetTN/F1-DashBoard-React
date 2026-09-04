@@ -182,3 +182,21 @@
     border-right-color: var(--border);
   }
 }
+
+.team-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.team-header img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.team-header h1 {
+  margin: 0;
+  text-transform: capitalize;
+}
